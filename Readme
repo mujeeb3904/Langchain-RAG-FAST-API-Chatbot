@@ -2,18 +2,25 @@
 
 ### Project Overview
 This repository showcases the development of a chatbot and API server using Ollama's Llama2 model, Streamlit, FastAPI, and Langchain. The project demonstrates a progression from a simple chatbot to a more advanced Retrieval-Augmented Generation (RAG) chatbot and the creation of Langchain agents for real-time information retrieval.
+
 ### Features
-- **Streamlit Interface:** User-friendly interface for interacting with the initial chatbot
-- **FastAPI Server:** API routes for generating essays and poems using Llama2
-- **RAG Models:** Enhanced chatbots that utilize retrieval mechanisms for more informed responses
-- **Langchain Agents:** Capable of fetching and utilizing information from Wikipedia and the web
+- **Streamlit Interface:** User-friendly interface for interacting with the initial chatbot.
+- **FastAPI Server:** API routes for generating essays and poems using Llama2.
+- **RAG Models:** Enhanced chatbots that utilize retrieval mechanisms for more informed responses.
+- **Langchain Agents:** Capable of fetching and utilizing information from Wikipedia and the web.
+
 ### Getting Started
+
 #### Prerequisites
-Python 3.8 or higher
-Required packages: ``` fastapi, uvicorn, langchain, ollama, streamlit, langserve```
-Running the Project
+- Python 3.8 or higher
+- Required packages:
+  ```bash
+`fastapi`, `uvicorn`, `langchain`, `ollama`, `streamlit`, `langserve`
+
+
 Streamlit Interface
-```Bash
+  streamlit run app.py
+
 streamlit run app.py
 ```
 FastAPI Server
