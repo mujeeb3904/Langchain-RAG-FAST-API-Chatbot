@@ -1,0 +1,16 @@
+langchain_openai
+langchain_core
+transformers
+torch
+python-dotenv
+streamlit
+langchain_community
+ollama
+langserve
+fastapi
+uvicorn
+bs4
+pypdf
+faiss-cpu
+wikipedia
+arxiv
